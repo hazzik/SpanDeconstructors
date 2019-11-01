@@ -3,7 +3,7 @@
 SpanDeconstructors is a source package which allows you to use C# 7 deconstruction syntax to deconstruct span into variables:
 
     Span<int> span = <...>;
-    var (a,b) = span;
+    var (a,b,_) = span;
 
 ## Implementation notes
 

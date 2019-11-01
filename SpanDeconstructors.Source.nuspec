@@ -12,7 +12,7 @@
         <description><![CDATA[SpanDeconstructors is a source package which allows you to use C# 7 deconstruction syntax to deconstruct array or span into variables:
 
     Span<int> span = <...>;
-    var (a,b) = span;]]></description>
+    var (a,b,_) = span;]]></description>
         <copyright>Alexander Zaytsev © 2019</copyright>
         <tags>deconstructor deconstruction span read-only-span tuple tuples</tags>
     </metadata>
